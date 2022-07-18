@@ -1,16 +1,21 @@
 import React from 'react'
+import Project from '../assets/PROJ.PNG'
+
 
 const Projects = () => {
   return (
-    <div name='project' className='w-full h-screen bg-red-600 text-gray-300'>
+    <div name='project' className='w-full h-screen text-black'>
     <div className='flex flex-col justify-center w-full h-full'>
-        <div className='mt-10 bg-slate-500 pd-10'>
-            <div>
-                <p className='text-4xl'>
-                    Projects
-                    
+        <div className='text-center mt-20'>
+            <div className='text-4xl md:text-6xl font-bold'>
+                <p>
+                    Projects.
                 </p>
             </div>
+            <div className='columns-2 m-12 mt-28 flex md:w-1/2 md:mt-12'>
+                <img className='p-5 shadow-md shadow-slate-600 hover:scale-110 duration-500' src={Project} alt="Project Image" />
+            </div>
+
 
         </div>
 

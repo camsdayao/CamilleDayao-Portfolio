@@ -4,13 +4,14 @@ import { Typewriter } from "react-simple-typewriter"
 import "react-simple-typewriter/dist/index.js"
 import {BsLinkedin} from 'react-icons/bs';
 import {BsGithub} from 'react-icons/bs'
+import {CgMail} from 'react-icons/cg'
 
 const Hero = () => {
   return (
    //flex container
-    <div className='container flex flex-col-reverse items-center px-6 mx-auto md:space-y-0 md:flex-row w-full h-screen'>
+    <div name='Hero' className='container flex flex-col-reverse items-center px-6 mx-auto justify-center md:space-y-0 md:flex-row w-full h-screen'>
       
-        <div className='flex flex-col mb-32 space-y-0 md:w-1/2'>
+        <div className='flex flex-col mb-32 space-y-0 md:w-1/2 justify-center'>
           <div className='m-8'>
             <h1 className='font-bold text-3xl text-center space-y-6 md:text-5xl md:mt-44 w-full'>
               Hello I'm Camille!
@@ -37,17 +38,25 @@ const Hero = () => {
                 />
             </span>
             </h1>
-            <div className='flex space-x-8 justify-center mt-8'>
-              <button>
+            <div className='flex space-x-8 justify-center mt-8 drop-shadow-2xl'>
+              <button className='rounded-full bg-slate-500 p-2 px-2'>
                 Click here to view CV
               </button>
-            <BsLinkedin size={20}/>
-              <BsGithub size={20}/>
+              <button className='rounded-full p-2 drop-shadow-2xl bg-red-700'>
+              <BsLinkedin size={18}/>
+              </button>
+              <button className='rounded-full p-2 bg-lime-300 '>
+              <BsGithub size={22}/>
+              </button>
+              <button>
+                <CgMail size={26}/>
+              </button>
+              
             </div>
            
             </div>
         </div>
-        <div className='w-52 md:w-1/4'>
+        <div className='w-52 md:w-1/4 mt-56 justify-center'>
             <img src={CamilleImg} className='rounded-lg' alt="" />
             </div>
     </div>
