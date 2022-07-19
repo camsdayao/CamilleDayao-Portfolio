@@ -8,8 +8,8 @@ import {FaRegCopyright} from 'react-icons/fa'
 
 const footer = () => {
   return (
-    <div class='footer' className='container bg-slate-300 w-full mt-10'>
-        <div className='flex space-x-8 justify-start mx-10 p-10'>
+    <div class='footer' className=' bg-slate-300 w-full mt-10'>
+        <div className='flex space-x-8 justify-start mx-10 p-10 w-full'>
           <a href="https://facebook.com/camille.dayao.3"
           target="_blank">
           <BsFacebook size={22}/>
@@ -30,9 +30,8 @@ const footer = () => {
           <a href="mailto: camsdayao@gmail.com"  target="_blank"> 
           <GrMailOption size={22}/>
           </a>
-          
         </div>
-        <div className='flex my-5 m-10 align-sub'>
+        <div className='flex my-5 m-10 align-sub w-full'>
            <p className='text-1xl space-x-5 mb-9 px-2 shadow-2xl md:text-2xl'>CamilleDayao</p>
            <FaRegCopyright size={18} />
         </div>
