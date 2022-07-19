@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/CamilleDayao-Portfolio/static/css/main.4e6eb050.css",
+    "main.js": "/CamilleDayao-Portfolio/static/js/main.3cc1af78.js",
+    "static/media/PROJ.PNG": "/CamilleDayao-Portfolio/static/media/PROJ.02dd8243e0b74d44c237.PNG",
+    "static/media/CamilleCropped.jpg": "/CamilleDayao-Portfolio/static/media/CamilleCropped.1a659cedd064ab86a23c.jpg",
+    "static/media/MYSQL.png": "/CamilleDayao-Portfolio/static/media/MYSQL.4fe76d0c8c2cd39a2766.png",
+    "static/media/ORACLE.png": "/CamilleDayao-Portfolio/static/media/ORACLE.db2f24386b16d9c447c7.png",
+    "static/media/REACT.png": "/CamilleDayao-Portfolio/static/media/REACT.73dbb5bcec516da82694.png",
+    "static/media/CSS.png": "/CamilleDayao-Portfolio/static/media/CSS.19c8605d6b2861f5fbe0.png",
+    "static/media/JAVA1.png": "/CamilleDayao-Portfolio/static/media/JAVA1.029115ef97cda5e0ff81.png",
+    "static/media/SELENIUM.png": "/CamilleDayao-Portfolio/static/media/SELENIUM.b0ef6c9ea563ff82c66f.png",
+    "static/media/TAILWIND.jpg": "/CamilleDayao-Portfolio/static/media/TAILWIND.b622e290e82093c36cca.jpg",
+    "static/media/HTML.png": "/CamilleDayao-Portfolio/static/media/HTML.26cbdaf5f0f0d92a0a62.png",
+    "static/media/C++.png": "/CamilleDayao-Portfolio/static/media/C++.3090d3718a2461ec1494.png",
+    "index.html": "/CamilleDayao-Portfolio/index.html",
+    "main.4e6eb050.css.map": "/CamilleDayao-Portfolio/static/css/main.4e6eb050.css.map",
+    "main.3cc1af78.js.map": "/CamilleDayao-Portfolio/static/js/main.3cc1af78.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e6eb050.css",
+    "static/js/main.3cc1af78.js"
+  ]
+}
