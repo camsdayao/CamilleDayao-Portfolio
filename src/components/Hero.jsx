@@ -39,18 +39,28 @@ const Hero = () => {
             </span>
             </h1>
             <div className='flex space-x-8 justify-center mt-8 drop-shadow-2xl'>
-              <button className='rounded-full bg-slate-500 p-2 px-2'>
+              <button className='rounded-full bg-orange-100 p-2 px-2 hover:bg-orange-300'>
                 Click here to view CV
               </button>
-              <button className='rounded-full p-2 drop-shadow-2xl bg-red-700'>
-              <BsLinkedin size={18}/>
+              <a href="https://ph.linkedin.com/in/camille-dayao-818175188"
+              target="_blank">
+              <button className='rounded-full p-2 drop-shadow-2xl bg-orange-100 hover:bg-orange-300'>
+              <BsLinkedin size={22}/>
               </button>
-              <button className='rounded-full p-2 bg-lime-300 '>
+              </a>
+              <a href="https://github.com/camsdayao"  
+              target="_blank">
+              <button className='rounded-full p-2 bg-orange-100 hover:bg-orange-300'>
               <BsGithub size={22}/>
               </button>
-              <button>
-                <CgMail size={26}/>
+              </a>
+              
+              <a href="mailto: camsdayao@gmail.com">
+              <button className='rounded-full p-2 bg-orange-100 hover:bg-orange-300'>
+                <CgMail size={30}/>
               </button>
+              </a>
+              
               
             </div>
            

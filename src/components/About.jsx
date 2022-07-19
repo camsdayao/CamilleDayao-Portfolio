@@ -24,7 +24,7 @@ const About = () => {
         </div>
         <div className='m-10 space-y-2 text-center text-1xl md:text-2xl text-black '>
             <p>
-             Hi there! Again, my name is <strong>Camille, a software engineer based in Manila.</strong> Graduate of Electronics Engineering passionable in software innovations. I do have a background in software testing/software QA, specializing in manual testing and automation testing using Selenium.
+             Hi there! Again, my name is <strong>Camille, a software engineer based in Manila.</strong> Graduate of Electronics Engineering passionable in software innovations. I do have a background in software testing/software QA, specializing in manual and automation testing.
              
             </p>
             <p>
