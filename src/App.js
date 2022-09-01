@@ -6,18 +6,24 @@ import Experiences from './components/Experiences'
 import Project from './components/Projects'
 import {Routes,Route} from 'react-router-dom'
 import Contact from './components/Contact';
-import Footer from './components/footer'
+import Footer from './components/footer';
+
+
 
 function App() {
   return (
-    <>
-    <Navbar/>
+
+     <>
+    
+      <Navbar/>
     <Hero />
     <About/>
     <Project/>
     <Experiences/>
     <Contact/>
     <Footer/>
+      
+    
     </>
 
 
